@@ -1,7 +1,3 @@
-/*jshint esversion: 6 */
+const util = require('./util')
 
-'use strict'
-
-exports.add = (a, b) => {
-  return a + b
-}
+console.log(util.lowerCaseLetters());
